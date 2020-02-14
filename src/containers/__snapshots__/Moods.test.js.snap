@@ -1,35 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Moods container matches a snapshot 1`] = `
-<Fragment>
-  <Controls>
-    <button
-      onClick={[Function]}
-    >
-      coffee - 
-      0
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      snacks - 
-      0
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      naps - 
-      0
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      studies - 
-      0
-    </button>
-  </Controls>
-  <Face
-    emoji="🤬"
-  />
-</Fragment>
+exports[`mood component renders mood 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Moods />
+</ContextProvider>
 `;
