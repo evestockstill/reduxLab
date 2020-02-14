@@ -3,7 +3,7 @@ import {
   EAT_SNACK,
   TAKE_NAP,
   STUDY
-} from '../actions/moodActions';
+} from '../action/moodAction';
 
 export default function reducer(state, action) {
   switch(action.type) {
